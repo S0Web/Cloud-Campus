@@ -1,53 +1,55 @@
 body{
 	margin:unset;
-	background:rgb(215, 215, 215);
+	background:rgb(255, 255, 255);
 	font-family: 'Work Sans', sans-serif;
 }
 
-#navbar{
-	position:fixed;
-	top:0;
-	left:0;
-  right:0;
-	height:80px;
-	background:white;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 112px;
-}
 
-#navbar >.left{
-	display:flex;
-	align-items: center;
-	gap:14px;
-}
+/* navbar */
+	#navbar{
+		position:fixed;
+		top:0;
+		left:0;
+	right:0;
+		height:80px;
+		background:white;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 112px;
+	}
 
-#navbar >.left >svg{
-	width:38px;
-}
-#navbar >.left h2{
-	margin:unset;
-	font-size: 30px;
-	color: #2947A9;
-	font-weight: 700;
-}
+	#navbar >.left{
+		display:flex;
+		align-items: center;
+		gap:14px;
+	}
 
-#navbar >.right{
-	display: flex;
-	gap:50px;
-}
+	#navbar >.left >svg{
+		width:38px;
+	}
+	#navbar >.left h2{
+		margin:unset;
+		font-size: 30px;
+		color: #2947A9;
+		font-weight: 700;
+	}
 
-#navbar >.right >a{
-	font-size: 18px;
-	color: #14171F;
-	text-decoration: unset;
-}
+	#navbar >.right{
+		display: flex;
+		gap:50px;
+	}
 
-#navbar >.right >.orange{
-	color:#F9995D;
-	font-weight: 600;
-}
+	#navbar >.right >a{
+		font-size: 18px;
+		color: #14171F;
+		text-decoration: unset;
+	}
+
+	#navbar >.right >.orange{
+		color:#F9995D;
+		font-weight: 600;
+	}
 
 #content{
   margin#down >-top: 80px;
@@ -180,4 +182,53 @@ color: #858EAD;
 
 #down > .ourreputation > .best > div > img{
 width: 15%;
+}
+
+
+#about{
+position: relative;
+margin-left: 114px;
+margin-right: 114px;
+}
+
+
+
+#about > .text{
+	position: absolute;
+	border-radius: 3px;
+	top: 10%;
+	bottom: 20%;
+	right: 0;
+	background-color: #2947A9;
+    width: 32em;
+	padding: 3.5em;
+	padding-top:1em;
+	/* height: 20em; */
+}
+
+#about > .text > h2{
+	padding-bottom:0.3em;
+	font-size: 3em;
+	color: white;
+
+}
+#about > .text > p{
+	font-size: 1.4em;
+	color: white;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	font-weight: 0;
+
+}
+#about > .text > .button{
+	display: block;
+	padding: 1%;
+	margin-top: 2em;
+	font-size: 1.5em;
+	border-radius: 4.4px;
+	background-color: white;
+	width: 12em;
+	font-weight: 600;
+	text-align: center;
+	color: #2947a9;
 }
