@@ -5,7 +5,7 @@ body{
 }
 
 
-/* navbar */
+/* Navbar */
 	#navbar{
 		position:fixed;
 		top:0;
@@ -51,184 +51,188 @@ body{
 		font-weight: 600;
 	}
 
-#content{
-  margin#down >-top: 80px;
-  background:orange;
-  height:44vw;
-  min-height: 646px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(img/header.jpg);
-  background-size:cover;
-  background-position: center 30%;
-  padding-left:112px;
-  display:flex;
-  align-items: center;
-  position:relative;
-}
 
-#content >h1{
-	font-size: 85px;
-	color: #292E3D;
-	line-height: 95px;
-	font-weight: 600;
-}
-
-#content >.featuresProjects{
-	width:500px;
-	height:235px;
-	background:#3559C7;
-	position:absolute;
-	bottom:0;
-	right:0;
+/*Content*/
+	#content{
+	margin#down >-top: 80px;
+	background:orange;
+	height:44vw;
+	min-height: 646px;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(img/header.jpg);
+	background-size:cover;
+	background-position: center 30%;
+	padding-left:112px;
 	display:flex;
-	flex-direction: column;
-}
-
-#content >.featuresProjects >.text{
-
-	flex:1;
-	text-align: center;
-}
-#content >.featuresProjects >.text >h2{
-	margin:unset;
-	font-weight: 700;
-	color: #FFFFFF;
-	font-size: 24px;
-	margin-top: 25px;
-}
-#content >.featuresProjects >.text >p{
-	margin:unset;
-	font-size: 28px;
-	line-height: 35px;
-	color: #FFFFFF;
-	margin-top: 25px;
-	padding: 0 30px;
-}
-#content >.featuresProjects >.navigation{
-	height:52px;
-	background:rgb(255, 255, 255);
-	display: flex;
-	gap:1px;
-}
-#content >.featuresProjects >.navigation >button{
-	width:50%;
-	border:unset;
-	background: #292E3D;
-	font-size: 20px;
-	color:#fff;
-	display: flex;
 	align-items: center;
-	justify-content: center;
-	gap:12px;
-	line-height: 20px;
-}
-#content >.featuresProjects >.navigation >button >svg{
-	width:30px;
-}
+	position:relative;
+	}
+
+	#content >h1{
+		font-size: 85px;
+		color: #292E3D;
+		line-height: 95px;
+		font-weight: 600;
+	}
+
+	#content >.featuresProjects{
+		width:500px;
+		height:235px;
+		background:#3559C7;
+		position:absolute;
+		bottom:0;
+		right:0;
+		display:flex;
+		flex-direction: column;
+	}
+
+	#content >.featuresProjects >.text{
+
+		flex:1;
+		text-align: center;
+	}
+	#content >.featuresProjects >.text >h2{
+		margin:unset;
+		font-weight: 700;
+		color: #FFFFFF;
+		font-size: 24px;
+		margin-top: 25px;
+	}
+	#content >.featuresProjects >.text >p{
+		margin:unset;
+		font-size: 28px;
+		line-height: 35px;
+		color: #FFFFFF;
+		margin-top: 25px;
+		padding: 0 30px;
+	}
+	#content >.featuresProjects >.navigation{
+		height:52px;
+		background:rgb(255, 255, 255);
+		display: flex;
+		gap:1px;
+	}
+	#content >.featuresProjects >.navigation >button{
+		width:50%;
+		border:unset;
+		background: #292E3D;
+		font-size: 20px;
+		color:#fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap:12px;
+		line-height: 20px;
+	}
+	#content >.featuresProjects >.navigation >button >svg{
+		width:30px;
+	}
 
 
-#content >.featuresProjects >.navigation >.btn-next{
-	flex-direction: row-reverse;
-}
+	#content >.featuresProjects >.navigation >.btn-next{
+		flex-direction: row-reverse;
+	}
 
-#content >.featuresProjects >.navigation >.btn-next >svg{
-	transform: rotate(180deg);
-}
+	#content >.featuresProjects >.navigation >.btn-next >svg{
+		transform: rotate(180deg);
+	}
 
-#down{
-background-color: white;
-}
+/* down */
 
-#down > .ourreputation > h2{
-text-align: center;
-padding-top: 60px;
-padding-bottom: 25px;
-margin:0;
-font-size: 2.5em ;
-color: #292E3D;
-}
-
-#down > .ourreputation >.best{
-display: flex;
-justify-content: center;
-
-margin-left: auto;
-margin-right: auto;
-}
-
-#down > .ourreputation > .ourreputation{
-	display: flex;
-	flex-direction: column;
-}
-
-
-#down > .ourreputation > .best > div{
-	border: 1px solid;
-	border-color: #E0E3EB;
-	border-radius: 3px;
-	width: 300px;
-	margin:48px ;
-	padding:25px;
-}
-
-
-#down > .ourreputation > .best > div > h3{
-font-size:1.5em;
-color: #3D445C;
-}
-#down > .ourreputation > .best > div > p{
-font-size: 1.1em;
-color: #858EAD;
-}
-
-#down > .ourreputation > .best > div > img{
-width: 15%;
-}
-
-
-#about{
-position: relative;
-margin-left: 114px;
-margin-right: 114px;
-}
-
-
-
-#about > .text{
-	position: absolute;
-	border-radius: 3px;
-	top: 10%;
-	bottom: 20%;
-	right: 0;
-	background-color: #2947A9;
-    width: 32em;
-	padding: 3.5em;
-	padding-top:1em;
-	/* height: 20em; */
-}
-
-#about > .text > h2{
-	padding-bottom:0.3em;
-	font-size: 3em;
-	color: white;
-
-}
-#about > .text > p{
-	font-size: 1.4em;
-	color: white;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
-	font-weight: 0;
-
-}
-#about > .text > .button{
-	display: block;
-	padding: 1%;
-	margin-top: 2em;
-	font-size: 1.5em;
-	border-radius: 4.4px;
+	#down{
 	background-color: white;
-	width: 12em;
-	font-weight: 600;
+	}
+
+	#down > .ourreputation > h2{
 	text-align: center;
-	color: #2947a9;
-}
+	padding-top: 60px;
+	padding-bottom: 25px;
+	margin:0;
+	font-size: 2.5em ;
+	color: #292E3D;
+	}
+
+	#down > .ourreputation >.best{
+	display: flex;
+	justify-content: center;
+
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	#down > .ourreputation > .ourreputation{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	#down > .ourreputation > .best > div{
+		border: 1px solid;
+		border-color: #E0E3EB;
+		border-radius: 3px;
+		width: 300px;
+		margin:48px ;
+		padding:25px;
+	}
+
+
+	#down > .ourreputation > .best > div > h3{
+	font-size:1.5em;
+	color: #3D445C;
+	}
+	#down > .ourreputation > .best > div > p{
+	font-size: 1.1em;
+	color: #858EAD;
+	}
+
+	#down > .ourreputation > .best > div > img{
+	width: 15%;
+	}
+
+/* about */
+	#about{
+	position: relative;
+	margin-left: 114px;
+	margin-right: 114px;
+	}
+
+
+
+	#about > .text{
+		position: absolute;
+		border-radius: 3px;
+		top: 10%;
+		bottom: 20%;
+		right: 0;
+		background-color: #2947A9;
+		width: 32em;
+		padding: 3.5em;
+		padding-top:1em;
+		/* height: 20em; */
+	}
+
+	#about > .text > h2{
+		padding-bottom:0.3em;
+		font-size: 3em;
+		color: white;
+
+	}
+	#about > .text > p{
+		font-size: 1.4em;
+		color: white;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+		font-weight: 0;
+
+	}
+	#about > .text > .button{
+		display: block;
+		padding: 1%;
+		margin-top: 2em;
+		font-size: 1.5em;
+		border-radius: 4.4px;
+		background-color: white;
+		width: 12em;
+		font-weight: 600;
+		text-align: center;
+		color: #2947a9;
+	}
